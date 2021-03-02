@@ -1,0 +1,331 @@
+* {
+		margin:0;
+		padding: 0;
+	}
+
+body {
+background-color: rgba(109, 109, 109,1);
+}
+
+.circulo{
+	width: 100%;
+	height: 400px;
+	background-color: #FF9B59;
+	border-radius:0 0 100% 100%;
+}
+
+.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 117px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:70px;
+	
+
+}
+
+.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 90px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+}
+
+.funciones{
+	margin-top:50px;
+	column-count: 3;
+	column-gap:25%;
+}
+
+.botones{
+		width: 208px;
+		height: 45px;
+		margin-left:17%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 25px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+}
+
+
+	 @media screen and (max-width:1336px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 80px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:80px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 80px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+
+
+		.funciones{
+		margin-top:50px;
+		column-count: 3;
+		}
+
+		.botones{
+		width: 104px;
+		height: 25px;
+		margin-left:21%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 14px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+		}
+
+		img{
+			width: 200px;
+			height: 100px;
+		}
+	 }
+
+
+	 @media screen and (max-width:1220px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 70px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:100px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 80px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+
+		.botones{
+		width: 104px;
+		height: 25px;
+		margin-left:28%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 14px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+		}
+	 }
+
+
+	 @media screen and (max-width:1000px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 70px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:80px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 60px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+	 }
+
+	 	 @media screen and (max-width:1000px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 70px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:80px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 60px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+
+		.funciones{
+		margin-top:50px;
+		column-count: 3;
+		column-gap:10%;
+		}
+
+		.botones{
+		width: 104px;
+		height: 25px;
+		margin-left:17%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 14px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+		}
+
+	 }
+
+	 	 @media screen and (max-width:800px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 60px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:80px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 50px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+
+		.funciones{
+		margin-top:50px;
+		column-count: 3;
+		column-gap:10%;
+		}
+
+		.botones{
+		width: 104px;
+		height: 25px;
+		margin-left:21%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 14px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+		}
+
+	 }
+
+
+	 	 @media screen and (max-width:700px){
+	 	.TEXTO{
+		width: 100%;
+		height: 10px;
+		font-family: MixSerif;
+		font-size: 50px;
+		color: #F7FF00;
+		text-align: center;
+		padding-bottom: 100px;
+		padding-top:80px;
+		}
+
+		.TEXTO2{
+		width: 100%;
+		height: 10px;
+		font-family: Segoe UI;
+		font-size: 40px;
+		color: #F7FF00;
+		text-align: center;
+		font-weight: bold;
+
+		}
+
+		.funciones{
+		margin-top:50px;
+		column-count: 3;
+		column-gap:10%;
+		}
+
+		.botones{
+		width: 104px;
+		height: 25px;
+		margin-left:26%;
+		margin-bottom: 50px;		
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 14px;
+		letter-spacing: 0px;
+		color:#4B4B4B; 
+		border-radius:30px;
+		}
+
+	 }
+
+	 /* Add a black background color to the top navigation */
+.topnav {
+    background-color:#F77721;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#F9B009; 
+    color: white;
+  }

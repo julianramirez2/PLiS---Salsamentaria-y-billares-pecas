@@ -1,0 +1,324 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: rgba(255, 102, 0,0.65);
+    height: 100%;
+
+}
+
+.app{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.tiempo{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 80px;
+}
+
+.titulo{
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:MixSerif;
+    font-size: 100px;
+    color: #F7FF00;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.precio{
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: MixSerif;
+    font-size: 50px;
+    color: #F7FF00;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 80px;
+}
+
+.inputs .botones input{
+    width: 883px;
+    height: 88px;
+    margin:17px;
+    background: #FDFFB8;
+    font-family: Segoe UI;
+    font-size: 40px;
+    letter-spacing: 6px;
+    color:#4B4B4B;
+}
+
+.inputs .botones {
+ display: flex;
+ justify-content: center;
+ margin-top: 19px;
+}
+
+
+
+ @media screen and (max-width:1220px){
+     .inputs{
+         margin-top: 110px;
+     }
+ }
+
+
+ @media screen and (max-width:1020px){
+     .inputs {
+         margin-top: 120px;
+     }
+
+     .titulo{
+         font-size: 100px;
+         margin-bottom: -40px;
+     }
+
+ }
+
+ /* ------------------------------------------------ */
+/*       PARA TODOS LOS DOCUMENTOS DE CLIENTES      */
+/* ------------------------------------------------ */
+body{
+    background-color: #FB9C5B;
+    font-family: Helvetica;
+    position: relative;
+    margin: 0px;
+}
+
+h1{
+    color: #FFF711;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    color: #FFF711;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+h3{
+    color: #6D6D6D;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h6{
+    font-family: 'Courier New';
+    font-size: 12px;
+    text-align: center;
+    color: #2D2C2B;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.Under_Bar{
+    background-color: #E5772D;
+    height: 50px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.Upper_Bar{
+    background-color: #6D6D6D;
+    display: block;
+    height: 50px;
+    margin: 0px;
+}
+.Back{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Logo_PLIS{
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+/* ------------------------------------------------ */
+/*     BOTONES DE OPCIONES - CLIENT_OPTIONS.PHP     */
+/* ------------------------------------------------ */
+.Button_Options{
+    color: white!important;
+    background-color: #6D6D6D;
+    border-radius: 6px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding: 0.5em 1.2em;
+}
+.Button_Back{
+    color: white!important;
+    background-color: #2D2C2B;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    padding: 0.5em 1.2em;
+}
+/* ------------------------------------------------ */
+/*                CLIENT_CREATE.PHP                 */
+/* ------------------------------------------------ */
+.Messages{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Box_Form{
+    background-color: #FEFEDB;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Text_Form{
+    font-size: 25px;
+    line-height: 0px;
+    text-align: left;
+}
+
+.Input_Form{
+    border: 1,5px solid #555;
+    border-radius: 6px;
+    color: black!important;
+    font-size: 15px;
+    font-weight: 500;
+    height: 25px;
+    width: 90%;
+    padding: 0.5em 1.2em;
+}
+.Input_Form:focus{
+    border-color: #FB9C5B;    
+    outline: 0 none;
+}
+
+.Button_Save{
+    color: black!important;
+    background: #FFF711;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+}
+/* ------------------------------------------------ */
+/*                 CLIENT_VIEW.PHP                  */
+/* ------------------------------------------------ */
+.Box_Base{
+    background-color: #EDB588;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 110px;
+    text-align: center;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Box_Client{
+    background-color: #FEFEDB;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Button_Detail{
+    color: black!important;
+    background: #FFF711;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+}
+.Button_Delete{
+    color: black!important;
+    background: #F75736;
+    border-radius: 6px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#F77721;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#F9B009; 
+    color: white;
+  }

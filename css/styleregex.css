@@ -1,0 +1,72 @@
+* {
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+
+	body{
+		background-color: rgba(255, 102, 0,0.65)
+	}
+	
+
+	.titulo{
+		margin-top:254px;
+		width: 100%;
+		height: 125px;
+		font-family: MixSerif;
+		font-size: 150px;
+		color: #F7FF00;
+		text-align: center;
+		padding: 0px;
+		margin-bottom: 80px;
+	}
+
+	.titulo2{
+		width: 100%;
+		height: 125px;
+		font-family: MixSerif;
+		font-size: 150px;
+		color: #F7FF00;
+		text-align: center;
+		padding: 0px;
+		margin-bottom: 80px;
+	}
+
+	.inputs .botones input{
+		width: 883px;
+		height: 88px;
+		margin:17px;
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 40px;
+		letter-spacing: 6px;
+		color:#4B4B4B;
+	}
+
+	.inputs .botones {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 19px;
+	}
+
+	
+
+	 @media screen and (max-width:1220px){
+	 	.inputs{
+	 		margin-top: 110px;
+	 	}
+	 }
+
+
+	 @media screen and (max-width:1020px){
+	 	.inputs {
+	 		margin-top: 120px;
+	 	}
+
+	 	.titulo{
+	 		font-size: 100px;
+	 		margin-bottom: -40px;
+	 	}
+
+	 }

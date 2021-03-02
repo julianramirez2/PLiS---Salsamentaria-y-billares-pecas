@@ -1,0 +1,100 @@
+* {
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+
+	body{
+		background-color: rgba(255, 102, 0,0.65)
+	}
+	
+
+	.titulo{
+		margin-top:80px;
+		width: 100%;
+		height: 125px;
+		font-family: MixSerif;
+		font-size: 150px;
+		color: #F7FF00;
+		text-align: center;
+		padding: 0px;
+		margin-bottom: 80px;
+	}
+
+	.inputs{
+		margin:0px auto;
+		width: 806px;
+		height: 593px;
+		background: #6D6D6D;
+		border-radius:30px;
+		padding-top: 76px;
+	}
+
+	.inputs .usuario,
+	.inputs .nombre,
+	.inputs .apellido,
+	.inputs .contrasena{
+		width: 667px;
+		height: 67px;
+		margin:0px auto;
+		margin-bottom: 36px;
+	}
+
+	.inputs .contrasena{
+		width: 667px;
+		height: 67px;
+		margin:0px auto;
+	}
+
+	.inputs .usuario input,
+	.inputs .nombre input,
+	.inputs .apellido input,
+	.inputs .contrasena input{
+		width: 667px;
+		height:67px;
+		font-family: Segoe UI;
+		font-size: 25px;
+		padding-left: 16px;
+		background-color: #FEFFE5;
+	}
+
+
+	.inputs .botones input{
+		width: 315px;
+		height: 73px;
+		margin:17px;
+		background: #FDFFB8;
+		font-family: Segoe UI;
+		font-size: 25px;
+		color:#4B4B4B;
+	}
+
+	.inputs .botones {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 19px;
+	}
+
+	
+
+	 @media screen and (max-width:1220px){
+	 	.inputs{
+	 		margin-top: 110px;
+	 	}
+	 }
+
+
+	 @media screen and (max-width:1020px){
+	 	.inputs {
+	 		margin-top: 120px;
+	 	}
+
+	 	.titulo{
+	 		font-size: 100px;
+	 		margin-bottom: -40px;
+	 	}
+
+	 }
+
+	 

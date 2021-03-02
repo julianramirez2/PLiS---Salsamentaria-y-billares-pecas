@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: white;
+
+}
+
+.Under_Bar{
+    background-color: #E5772D;
+    height: 50px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.Upper_Bar{
+    background-color: #E5772D;
+    display: block;
+    height: 50px;
+    margin: 0px;
+}
+
+.Logo_PLIS{
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Back{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+h1{
+    color: #FFF711;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    color: #FFF711;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+h3{
+    color: #6D6D6D;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h6{
+    font-family: 'Courier New';
+    font-size: 12px;
+    text-align: center;
+    color: #2D2C2B;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

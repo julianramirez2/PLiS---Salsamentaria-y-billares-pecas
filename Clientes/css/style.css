@@ -1,0 +1,155 @@
+/* ------------------------------------------------ */
+/*             PARA TODOS LOS DOCUMENTOS            */
+/* ------------------------------------------------ */
+body{
+    background-color: #fb9c5b;
+    font-family: Helvetica;
+    line-height: 1.5;
+    position: relative;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff711;
+    margin: 0px;
+    margin-top: 30px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #fff711;
+    margin: 0px;
+}
+h6{
+    font-family: 'Courier New';
+    font-size: 15px;
+    color: #2D2C2B;
+    margin: 25px;
+}
+
+.Under_Bar{
+    background-color: #E5772D;
+    height: 80px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+}
+/* ------------------------------------------------ */
+/*     BOTONES DE OPCIONES - CLIENT_OPTIONS.PHP     */
+/* ------------------------------------------------ */
+.Options{
+    color: #fefedb!important;
+    font-size: 50px;
+    padding: 0.5em 1.2em;
+    background: #6d6d6d;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+.Options:hover {
+    background: #505050;
+}
+/* ------------------------------------------------ */
+/*                CLIENT_CREATE.PHP                 */
+/* ------------------------------------------------ */
+.Upper-Bar{
+    background-color: #6d6d6d;
+    height: 70px;
+    display: block;
+}
+.Back_Menu{
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.Box_Form{
+    background-color: #fefedb;
+    margin: 100px;
+    border-radius: 10px;
+}
+.Img_Client{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+}
+.Text_Form{
+    font-size: 25px;
+}
+.Form_Client,
+    input[type='text']:active:focus,
+    input[type='text']:hover{
+        outline : none;
+        font-size:20px;
+    }
+.Button_Save{
+    color: #000000!important;
+    font-size: 25px;
+    padding: 0.5em 1.2em;
+    background: #fff711;
+    border-radius: 6px;
+}
+.Button_Save:hover {
+    background: #f1d32c;
+    color: #000000!important;
+}
+.Client_Messages{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+/* ------------------------------------------------ */
+/*                 CLIENT_VIEW.PHP                  */
+/* ------------------------------------------------ */
+.Search{
+    background-color: #fefedb;
+    width: 300px;
+    height: 30px;
+    margin: 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+.search__container {
+        padding-top: 64px;
+}
+.search__input {
+    width: 100%;
+    padding: 12px 24px;
+
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #575756;
+    background-color: transparent;
+
+    background-image: url("img/Search_img.svg");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.search__input::placeholder{
+    color: color(#575756 a(0.8));
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+}
+.search__input:focus{
+    padding: 12px 0;
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 1px solid #575756;
+            border-radius: 0;
+            background-position: 100% center;
+}
