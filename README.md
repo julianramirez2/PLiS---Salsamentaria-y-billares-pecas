@@ -5,3 +5,11 @@ Los realizadores de este proyecto son el equipo PLiS:
 - Julián Ramirez Giraldo
 - Simón Marín Giraldo
 - Liz Oriana Rodrigues Cruz
+
+# About this project
+This project was made as a university project focused on small businesses, specifically "Salsamentaria y Billares Pecas" although it can be modified and adapted to any other business. This system is a local business management system where they can make their accounts, count time, create accounts receivable to people, add and remove products and view their descriptions all this in order to carry a proper administration of the business.
+
+This project was made by:
+- Julián Ramirez Giraldo
+- Simón Marín Giraldo
+- Liz Oriana Rodrigues Cruz
